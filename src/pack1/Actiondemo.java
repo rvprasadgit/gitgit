@@ -34,12 +34,12 @@ public class Actiondemo  extends Driverinit {
 		Actiondemo.tear();
 		
 		  WebElement
-		  account=driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
+		  account3=driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
 		  WebElement search=driver.findElement(By.cssSelector("#twotabsearchtextbox"));
 		  Actions a=new Actions(driver);
 		  
 		  
-		  a.moveToElement(account).contextClick().build().perform();
+		  a.moveToElement(account1).contextClick().build().perform();
 		  a.moveToElement(search).click().keyDown(Keys.SHIFT).sendKeys("powder").
 		  doubleClick().build().perform();
 		 

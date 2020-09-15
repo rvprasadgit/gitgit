@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.realtimeproject.Tests.HomeTestTest">
+      <class name="pack1.Dropdowsdyanamic">
         <methods>
+          <include name="fop2"/>
           <include name="tear"/>
-          <include name="Enterdeatils"/>
-          <include name="setup"/>
+          <include name="bot"/>
         </methods>
-      </class> <!-- com.qa.realtimeproject.Tests.HomeTestTest -->
+      </class> <!-- pack1.Dropdowsdyanamic -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

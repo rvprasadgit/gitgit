@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.realtimeproject.Tests.HomeTestTest">
+      <class name="pack1.NewTest">
         <methods>
-          <include name="tear"/>
-          <include name="Enterdeatils"/>
-          <include name="setup"/>
+          <include name="beforTest"/>
+          <include name="f"/>
+          <include name="afteTest"/>
         </methods>
-      </class> <!-- com.qa.realtimeproject.Tests.HomeTestTest -->
+      </class> <!-- pack1.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

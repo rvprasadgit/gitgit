@@ -14,8 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import pack2.Driverinit;
-import static org.openqa.selenium.support.locators.RelativeLocator.withTagName;
-public class Actiondemo  {
+public class Actiondemo  extends Driverinit {
 
 	public static void main(String[] args) throws IOException {
 		
@@ -25,7 +24,7 @@ public class Actiondemo  {
 		
 		driver.get("https:amazon.com");
 		WebElement account=driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
-		driver.findElement(withtagname.)
+		
 		
 		//Actiondemo.srchot("amazonhome.png");
 		
@@ -33,17 +32,17 @@ public class Actiondemo  {
 		
 		
 		Actiondemo.tear();
-		/*
-		 * WebElement
-		 * account=driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
-		 * WebElement search=driver.findElement(By.cssSelector("#twotabsearchtextbox"));
-		 * Actions a=new Actions(driver);
-		 * 
-		 * 
-		 * a.moveToElement(account).contextClick().build().perform();
-		 * a.moveToElement(search).click().keyDown(Keys.SHIFT).sendKeys("powder").
-		 * doubleClick().build().perform();
-		 */
+		
+		  WebElement
+		  account=driver.findElement(By.cssSelector("a[id='nav-link-accountList']"));
+		  WebElement search=driver.findElement(By.cssSelector("#twotabsearchtextbox"));
+		  Actions a=new Actions(driver);
+		  
+		  
+		  a.moveToElement(account).contextClick().build().perform();
+		  a.moveToElement(search).click().keyDown(Keys.SHIFT).sendKeys("powder").
+		  doubleClick().build().perform();
+		 
 		
 	}
 

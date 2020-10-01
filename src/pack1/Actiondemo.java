@@ -39,7 +39,7 @@ public class Actiondemo  extends Driverinit {
 		  Actions a=new Actions(driver);
 		  
 		  
-		  a.moveToElement(account1).contextClick().build().perform();
+		  a.moveToElement(account3).contextClick().build().perform();
 		  a.moveToElement(search).click().keyDown(Keys.SHIFT).sendKeys("powder").
 		  doubleClick().build().perform();
 		 
